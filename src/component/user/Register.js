@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/auth.css";
+import "../../css/auth.css";
 
 const RegisterScreen = () => {
     const [email, setEmail] = useState("");
