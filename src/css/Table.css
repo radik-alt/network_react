@@ -4,6 +4,7 @@ table {
     border-collapse: collapse; /* Объединение границ ячеек */
 }
 
+
 thead th {
     background-color: #333; /* Цвет фона заголовков */
     color: #fff; /* Цвет текста заголовков */
@@ -30,7 +31,6 @@ tbody td {
     /* Выравнивание по центру */
     margin: 25px auto 0;
 }
-
 
 
 /* Стили для иконки редактирования */
@@ -82,17 +82,18 @@ tbody td {
 }
 
 /* Table.css */
-
 .filters-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Располагаем элементы по центру по горизонтали */
-    justify-content: center; /* Располагаем элементы по центру по вертикали */
-    margin-bottom: 20px; /* Увеличиваем отступ снизу для разделения с кнопкой */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
 }
 
 .filters-wrapper input {
-    margin-bottom: 10px; /* Увеличиваем отступ снизу между полями ввода */
+    margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -115,7 +116,6 @@ tbody td {
     background-color: #0056b3;
 }
 
-
 .filters-toggle-button {
     padding: 8px 16px;
     background-color: #007bff;
@@ -135,6 +135,7 @@ tbody td {
 
 .ordering-select {
     padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;

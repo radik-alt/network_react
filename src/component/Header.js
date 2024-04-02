@@ -20,8 +20,8 @@ function Header(props) {
             <nav>
                 <ul>
                     <li><Link to="/">BookLover</Link></li>
-                    <li><Link to="/publishers">PublishersViewTable</Link></li>
-                    <li><Link to="/regions">RegionsViewTable</Link></li>
+                    <li><Link to="/publishers">Publishers</Link></li>
+                    <li><Link to="/regions">Regions</Link></li>
                     <li><Link to="/books">Book</Link></li>
                 </ul>
             </nav>
